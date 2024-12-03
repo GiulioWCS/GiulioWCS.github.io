@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  color: #fff; /* Colore del testo bianco per contrasto */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Colore di sfondo nero per la pagina intera */
+}
+
+/* Container che divide la pagina in due sezioni */
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000000 50%, #0057a0 50%); /* Dividi la pagina in metà nera e metà blu */
+}
+
+/* Sezione di sinistra (nera) */
+.left-side {
+  flex: 1;
+  background-color: #000; /* Colore nero */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Immagine dello scudetto */
+.inter-logo {
+  max-width: 80%; /* Imposta la larghezza massima dell'immagine al 80% della larghezza della sezione */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+/* Sezione di destra (blu) */
+.right-side {
+  flex: 1;
+  background-color: #0057a0; /* Colore blu */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Titolo principale */
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff; /* Colore bianco per il titolo */
+  margin: 0;
+}
+
+/* Titolo secondario */
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #ffffff; /* Colore bianco */
+}
+
+/* Paragrafi */
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff; /* Colore bianco per il testo */
+  line-height: 1.6;
+  max-width: 80%; /* Limita la larghezza del testo per migliorare la leggibilità */
+}
